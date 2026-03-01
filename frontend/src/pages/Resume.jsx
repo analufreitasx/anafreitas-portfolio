@@ -26,17 +26,17 @@ const Resume = () => {
             <div className="resume-actions">
                 <button
                     type="button"
-                    className={`resume-lang-btn ${resumeLang === "EN" ? "active" : ""}`}
-                    onClick={() => setResumeLang("EN")}
-                >
-                    {t('resume-english')}
-                </button>
-                <button
-                    type="button"
                     className={`resume-lang-btn ${resumeLang === "PT" ? "active" : ""}`}
                     onClick={() => setResumeLang("PT")}
                 >
                     {t('resume-portuguese')}
+                </button>
+                <button
+                    type="button"
+                    className={`resume-lang-btn ${resumeLang === "EN" ? "active" : ""}`}
+                    onClick={() => setResumeLang("EN")}
+                >
+                    {t('resume-english')}
                 </button>
             </div>
             <div className="resume-preview">

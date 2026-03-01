@@ -1,0 +1,145 @@
+.projects-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    text-align: left;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.projects-title,
+.projects-section-title {
+    margin: 0;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.projects-title {
+    font-size: 2rem;
+}
+
+.sub-projects-title {
+    gap: 0.5rem;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+.projects-section-title {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.projects-tag {
+    color: #870EBF;
+    margin-right: 0.35rem;
+}
+
+.projects-subtitle {
+    margin: 0;
+    color: #ABB2BF;
+}
+
+.projects-bio {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    color: #ABB2BF;
+    line-height: 1.7;
+}
+
+.projects-bio p {
+    margin: 0;
+}
+
+@media (max-width: 640px) {
+    .projects-title {
+        font-size: 1.75rem;
+    }
+
+    .projects-section-title {
+        font-size: 1.3rem;
+    }
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    border-style: solid;
+    border-color: #ABB2BF;
+    border-width: 1px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    max-height: 500px;
+    background: #1a1a1a;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.project-techs {
+    display: flex;
+    gap: 0.5rem;
+    border-style: solid;
+    border-color: #ABB2BF;
+    border-width: 1px;
+    padding: 0.5rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-techs .project-tech {
+    color: #870EBF;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.project-title {
+    margin: 0.75rem 0 0.25rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.project-description {
+    margin: 0;
+    color: #ABB2BF;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.project-links {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.project-link {
+    background: transparent;
+    border: 1px solid #870EBF;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    text-decoration: none;
+}
+
+.project-link:hover {
+    background: #870EBF;
+    color: #FFFFFF;
+    transition: background 0.2s ease-in-out, color 0.2s ease-in-out, transform 0.2s ease-in-out;
+    transform: scale(1.08);
+}

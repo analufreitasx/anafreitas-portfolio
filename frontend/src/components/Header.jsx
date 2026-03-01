@@ -20,7 +20,7 @@ const Header = () => {
 
           <li>
             <Link to="/projects" className="nav-item">
-              <span className="hashtag">#</span>{t('projects')}
+              <span className="hashtag">#</span>{t('projects.title')}
             </Link>
           </li>
 

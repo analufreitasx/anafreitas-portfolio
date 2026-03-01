@@ -1,8 +1,7 @@
 {
     "home": "início",
     "about": "sobre mim",
-    "projects": "projetos",
-    "resume": "resumo",
+    "resume": "currículo",
     "contact": "contatos",
     "portfolio": "Portfólio",
     "nome": "Nome",
@@ -21,5 +20,29 @@
     "resume-portuguese": "Português",
     "about-subtitle": "Quem sou eu?",
     "about-paragraph-1": "Sou desenvolvedor front-end focado em criar interfaces modernas, acessíveis e responsivas.",
-    "about-paragraph-2": "Transformo ideias em experiências digitais claras e funcionais, sempre buscando evolução técnica e qualidade no código."
+    "about-paragraph-2": "Transformo ideias em experiências digitais claras e funcionais, sempre buscando evolução técnica e qualidade no código.",
+    "projects": {
+        "title": "projetos",
+        "subtitle": "Meus trabalhos",
+        "complete-projects": "projetos-completos",
+        "small-projects": "projetos-pequenos",
+        "project-1-title": "Projeto 1",
+        "project-1-description": "Descrição do projeto 1.",
+        "project-2-title": "Projeto 2",
+        "project-2-description": "Descrição do projeto 2.",
+        "project-3-title": "Projeto 3",
+        "project-3-description": "Descrição do projeto 3.",
+        "project-4-title": "Projeto 4",
+        "project-4-description": "Descrição do projeto 4."
+    },
+    "smallprojects": {
+        "project-1-title": "Bot whatsapp",
+        "project-1-description": "Bot para automatizar mensagens no whatsapp usando a biblioteca Baileys.",
+        "project-2-title": "Gerador de senhas",
+        "project-2-description": "Gerador de senhas aleatórias com opções de personalização.",
+        "project-3-title": "Conversor de moedas",
+        "project-3-description": "Aplicação para converter valores entre diferentes moedas usando uma API de câmbio.",
+        "project-4-title": "Lista de tarefas",
+        "project-4-description": "Aplicação para gerenciar tarefas diárias com funcionalidades de adicionar, editar e excluir."
+    }
 }
