@@ -1,4 +1,6 @@
-.about-content {
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+.about-content,
+.skills-content{
     display: flex;
     flex-direction: column;
     gap: 1.25rem;
@@ -8,7 +10,9 @@
 }
 
 .about-title,
-.about-section-title {
+.about-section-title,
+.skills-title,
+.experience-title{
     margin: 0;
     color: #FFFFFF;
     font-weight: 700;
@@ -24,6 +28,16 @@
 }
 
 .about-tag {
+    color: #870EBF;
+    margin-right: 0.35rem;
+}
+
+.skills-tag {
+    color: #870EBF;
+    margin-right: 0.35rem;
+}
+
+.experience-tag {
     color: #870EBF;
     margin-right: 0.35rem;
 }
@@ -45,6 +59,81 @@
     margin: 0;
 }
 
+.skills-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    text-align: left;
+    max-width: 980px;
+    margin: 100px auto 0;
+
+}
+
+.experience-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    text-align: left;
+    max-width: 980px;
+    margin: 100px auto 0;
+
+}
+.timeline{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container{
+    padding: 10px 30px;
+    position: relative;
+    margin-bottom: auto;
+}
+.enterpriseTitle{
+    font-family: Space Grotesk, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-size: 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.text-box{
+    padding: 1.5rem;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 24px;
+    font-size: 15px;
+    background: #2B2F36;
+}
+.text-box small{
+    color:#7A3E8E;
+    font-weight: bold;
+}
+.container img{
+    position:absolute;
+    width: 40px;
+    border-radius: 50%;
+    top: 32px;
+    z-index: 10;
+    left:-22px;
+}
+
+.timeline::after {
+   content: '';
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    background: #FFFFFF;
+    top: 0;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+
+.text-box h2{
+    font-family: 'Fira Code', monospace;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
 @media (max-width: 640px) {
     .about-title {
         font-size: 1.75rem;
@@ -54,3 +143,24 @@
         font-size: 1.3rem;
     }
 }
+
+@keyframes gradient-shift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.text-gradient {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(
+            135deg,
+            #3C096C 0%,
+            #870EBF 50%,
+            #C77DFF 100%
+    );
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: gradient-shift 10s ease-in-out infinite;
+}
+

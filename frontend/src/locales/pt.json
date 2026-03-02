@@ -1,9 +1,12 @@
 {
     "home": "início",
     "about": "sobre mim",
+    "projects": "projetos",
+    "skills": "skills",
     "resume": "currículo",
     "contact": "contatos",
     "portfolio": "Portfólio",
+    "experience": "experiência",
     "nome": "Nome",
     "profissao": "ENGENHEIRO DE SOFTWARE",
     "veja-projetos": "veja meus projetos",
@@ -44,5 +47,13 @@
         "project-3-description": "Aplicação para converter valores entre diferentes moedas usando uma API de câmbio.",
         "project-4-title": "Lista de tarefas",
         "project-4-description": "Aplicação para gerenciar tarefas diárias com funcionalidades de adicionar, editar e excluir."
-    }
+    },
+    "enterprise-name-1": "Amazon",
+    "enterprise-name-2": "Google",
+    "enterprise-name-3": "Ifood",
+    "position-name-1": "Desenvolvedor Backend Pleno",
+    "position-name-2": " Desenvolvedor Backend Sênior",
+    "job-description-1": "Atuei no desenvolvimento e manutenção de aplicações back-end, implementando APIs, regras de negócio e integrações com bancos de dados. Realizei versionamento com Git, correção de bugs e otimização de performance, trabalhando em equipe com metodologias ágeis e boas práticas de desenvolvimento.",
+    "job-description-2": "Atuei como Desenvolvedor Pleno no desenho e evolução de soluções escaláveis, definindo arquiteturas e conduzindo code reviews para garantir qualidade e boas práticas. Trabalhei em conjunto com times multidisciplinares no planejamento de entregas e participei da implementação de CI/CD, monitoramento e otimização contínua de aplicações em produção.",
+    "job-description-3": "Atuei como Desenvolvedor Sênior, liderando decisões arquiteturais e a evolução de sistemas de alta escala e missão crítica. Fui responsável por definir padrões técnicos, orientar desenvolvedores do time, conduzir code reviews estratégicos e garantir a qualidade e sustentabilidade do código a longo prazo.\n\nTambém atuei na decomposição de serviços, otimização de performance e confiabilidade, além de participar ativamente do planejamento técnico, priorização de débitos técnicos e definição de roadmap junto às áreas de produto e negócios."
 }
