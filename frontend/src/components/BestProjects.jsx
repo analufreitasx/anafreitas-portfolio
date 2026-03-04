@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useLanguage } from "../services/translation";
-import "../styles/bestProjects.css"
+import "../styles/bestprojects.css"
 import project1Image from '../assets/project1.jpg';
 import project2Image from '../assets/project2.jpg';
 import project3Image from '../assets/project3.jpg';
