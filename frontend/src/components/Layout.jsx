@@ -4,11 +4,12 @@ import Footer from './Footer';
 const Layout = ({ children }) => {
     return (
         <div style={{
-            backgroundColor: '#282C33',
+            backgroundColor: '#12102a',
             color: '#ABB2BF',
             minHeight: '100vh',
             display: 'flex',
-            flexDirection: 'column'
+            flexDirection: 'column',
+        
         }}>
             <Header />
             <main style={{ padding: '2rem', flex: 1 }}>

@@ -23,9 +23,6 @@ const Contacts = () => {
                 <span className="hashtag">#</span>{t("contact")}
             </h2>
             <p>{t("contato-resumo")}</p>
-            
-            <EmailForm />
-
             <div className="contact-links">
                 {items.map(item => (
                     <a
@@ -40,6 +37,8 @@ const Contacts = () => {
                     </a>
                 ))}
             </div>
+
+            <EmailForm />
         </div>
     )
 }

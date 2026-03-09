@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
 .home-content{
         display: flex;
         align-items: stretch;
@@ -8,8 +12,8 @@
 }
 .home-intro{
     display: flex;
-    align-items: stretch;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
 }
@@ -17,7 +21,8 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    margin-left: 10%;
+    grid-gap: 2.5rem;
 }
 .home-bottom {
     display: flex;
@@ -48,9 +53,11 @@
     font-size: 1rem;
 }
 .trabalhando-quadrado {
-    width: 20px;
-    height: 20px;
-    background: #870EBF;
+    width: 15px;
+    height: 15px;
+    background: #f0abfc;
+    box-shadow: 0 0 8px #c084fc;
+    flex-shrink: 0;
 }
 .trabalhando-box p {
     margin: 0;
@@ -61,12 +68,16 @@
     font-weight: 600;
 }
 .nome{
-        color: #870EBF;
-        font-size: 3.0rem;
+        color: #c084fc;
+        font-weight: 700;
+        font-size: 4.0rem;
         margin-bottom: 0.3rem;
+        font-family: 'Playfair Display', serif;
 }
 .profissao {
+    font-family: 'DM Mono', monospace;
     margin: 0;
+    letter-spacing: 0.2em;
 }
 .cta-box{
         display: flex;
@@ -78,19 +89,22 @@
 }
 
 .cta-item{
-        color: #ffffff;
+        color: #f0abfc;
         text-decoration: none;
         font-weight: 600;
         font-size: 0.85rem;
-        padding: 0.4rem 0.8rem;
+        padding: 12px 24px;
         border-radius: 4px;
         border: 1.5px solid #870EBF;
         transition: all 0.3s ease;
+        font-family: 'DM Mono', monospace;
+        letter-spacing: 0.05em;
+        
 }
 
-.cta-item:hover{
-        background: #6d0a96;
-        border-color: #6d0a96;
+.cta-item:hover {
+    background:  rgba(192, 132, 252, 0.15);
+    transform: scale(1.05);
 }
 
 .location {
@@ -102,14 +116,16 @@
 .location p {
   margin: 0;
   font-size: 0.9rem;
-  color: #bfc5cd;
+  color: #9d8ec0;
+  font-family: 'DM Mono', monospace;
 }
 .icon {
   color: #bfc5cd;         
-  background: #2b2f36;
+  background: transparent;
   width: 25px;
   height: 25px;
   display: flex;
+  animation: pulse 2s infinite;
 }
 
 .contacts-container{
@@ -121,6 +137,63 @@
 .home-content .skills-title{
     font-size: 1.5rem;
 }
+
+.home-container {
+    justify-content: center;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.photo-container {
+    position: relative;
+    width: 340px;
+    height: 420px;
+  }
+
+
+  .frame-outer {
+    position: absolute;
+    top: -16px; left: -16px;
+    width: 220px; height: 220px;
+    border: 1px solid rgba(192,132,252,0.3);
+  }
+
+  .frame-inner {
+    position: absolute;
+    top: 24px; left: 24px;
+    width: 140px; height: 140px;
+    border: 1px solid rgba(240,171,252,0.2);
+  }
+
+  .photo-placeholder {
+    position: absolute;
+    right: 0; bottom: 0;
+    width: 260px; height: 360px;
+    background: linear-gradient(160deg, #2a2040 0%, #1a1830 100%);
+    display: flex; align-items: center; justify-content: center;
+    color: var(--text-muted);
+    font-family: 'DM Mono', monospace;
+    font-size: 0.75rem;
+    border: 1px solid var(--border);
+  }
+
+  .status-badge {
+    position: absolute;
+    bottom: -20px; left: 0; right: 20px;
+    background: rgba(26, 24, 48, 0.9);
+    border: 1px solid var(--border);
+    padding: 12px 18px;
+    display: flex; align-items: center; gap: 10px;
+    font-family: 'DM Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    backdrop-filter: blur(8px);
+  }
+
+  .status-badge strong { color: #f0abfc; }
+
 @media (max-width: 480px){
   .cta-box{
     flex-direction: column;
@@ -130,4 +203,8 @@
     width: 100%;
     text-align: center;
   }
+}
+
+body{
+    background-color: #12102a;
 }

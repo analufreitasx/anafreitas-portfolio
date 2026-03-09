@@ -9,7 +9,6 @@
     z-index: 100;
     margin: 0;
     padding: 1rem;
-    background-color: #282C33;
     opacity: 0.9;
 }
 
@@ -39,12 +38,12 @@
 }
 
 .nav-item:hover {
-    color: purple;
+    color: #f0abfc;;
 }
 
 .hashtag {
     font-weight: bold;
-    color: purple;
+    color: #c084fc;
 }
 
 .selecao-idioma {
@@ -63,9 +62,9 @@
 }
 
 .selecao-idioma.active {
-    background-color: #870EBF;
+    background-color: #f0abfc;
     color: #fff;
-    border-color: #870EBF;
+    border-color: #c084fc;
 }
 
 .selecao-idioma option {

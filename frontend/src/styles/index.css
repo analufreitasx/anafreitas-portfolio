@@ -1,13 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 
 body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  font-family: 'Fira Code', monospace;
+  font-family: 'DM Sans';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #282C33;
+  background-color: #12102a;
+    color: #e2d9f3;
+}
+
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.45;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 55% 45% at 75% 15%, rgba(192,132,252,0.09) 0%, transparent 65%),
+    radial-gradient(ellipse 35% 55% at 15% 85%, rgba(139,92,246,0.07) 0%, transparent 60%),
+    radial-gradient(ellipse 70% 35% at 50% 55%, rgba(240,171,252,0.04) 0%, transparent 70%);
 }
 
 * {

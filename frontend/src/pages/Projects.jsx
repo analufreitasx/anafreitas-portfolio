@@ -1,8 +1,8 @@
 import { useLanguage } from "../services/translation";
 import '../styles/projects.css'
-import project1Image from '../assets/project1.jpg';
-import project2Image from '../assets/project2.jpg';
-import project3Image from '../assets/project3.jpg';
+import project1Image from '../assets/PsiPlus.png';
+import project2Image from '../assets/RealConsult.png';
+import project3Image from '../assets/PotentialSenior.jpg';
 import project4Image from '../assets/project4.jpg';
 
 const Projects = () => {
@@ -11,33 +11,25 @@ const Projects = () => {
     const projectsData = [
         {
             image: project1Image,
-            techs: ['React', 'Node.js'],
+            techs: ['Java', 'TypeScript', 'React'],
             titleKey: 'projects.project-1-title',
             descKey: 'projects.project-1-description',
-            github: 'https://github.com',
+            github: 'https://github.com/analufreitasx/psiplus',
             demo: 'https://github.com'
         },
         {
             image: project2Image,
-            techs: ['React', 'Node.js'],
+            techs: ['Java', 'JavaScript', 'Next'],
             titleKey: 'projects.project-2-title',
             descKey: 'projects.project-2-description',
-            github: 'https://github.com',
+            github: 'https://github.com/analufreitasx/realconsult',
             demo: 'https://github.com'
         },
         {
             image: project3Image,
-            techs: ['React', 'Node.js'],
+            techs: ['HTML', 'JavaScript'],
             titleKey: 'projects.project-3-title',
             descKey: 'projects.project-3-description',
-            github: 'https://github.com',
-            demo: 'https://github.com'
-        },
-        {
-            image: project4Image,
-            techs: ['React', 'Node.js'],
-            titleKey: 'projects.project-4-title',
-            descKey: 'projects.project-4-description',
             github: 'https://github.com',
             demo: 'https://github.com'
         }
@@ -90,8 +82,8 @@ const Projects = () => {
 
             <div className="projects-grid">
                 {projectsData.map((project, index) => (
-                    <div className="project-card" key={index}>
-                        <img src={project.image} alt={t(project.titleKey)} className="project-image" />
+                    <div className="best-project-card" key={index}>
+                        <img src={project.image} alt={t(project.titleKey)} className="best-project-image" />
                         <div className="project-techs">
                             {project.techs.map((tech, i) => (
                                 <span className="project-tech" key={i}>{tech}</span>
@@ -114,7 +106,7 @@ const Projects = () => {
 
             <div className="projects-grid">
                 {smallProjectsData.map((project, index) => (
-                    <div className="project-card" key={index}>
+                    <div className="best-project-card" key={index}>
                         <div className="project-techs">
                             {project.techs.map((tech, i) => (
                                 <span className="project-tech" key={i}>{tech}</span>
