@@ -2,19 +2,19 @@ import { useLanguage } from '../services/translation'
 import { Trans } from "react-i18next"
 import "../styles/contacts.css"
 
-// icones da bibiloteca react-icons
+
 import { FaLinkedin, FaGithub, FaEnvelope, FaWhatsapp } from 'react-icons/fa'
 import EmailForm from './EmailForm'  
 
 const Contacts = () => {
     const { t, idioma, changeLanguage } = useLanguage()
 
-    // lista de contatos, cada um com href, label e ícone, editar as urls com suas informações
+
     const items = [
-        { href: 'https://linkedin.com', label: 'Linkedin', icon: <FaLinkedin /> },
-        { href: 'https://github.com/joaopauloaramuni', label: 'Github', icon: <FaGithub /> },
-        { href: 'mailto:jfwwniogwi@gmail.com', label: 'Email', icon: <FaEnvelope /> },
-        { href: 'https://wa.me/5531999999999', label: 'Whatsapp', icon: <FaWhatsapp /> },
+        { href: 'www.linkedin.com/in/ana-luizadefreitas', label: 'Linkedin', icon: <FaLinkedin /> },
+        { href: 'https://github.com/analufreitasx', label: 'Github', icon: <FaGithub /> },
+        { href: 'mailto:analuizafreitas12@yahoo.com.br', label: 'Email', icon: <FaEnvelope /> },
+        { href: 'https://wa.me/5531992688681', label: 'Whatsapp', icon: <FaWhatsapp /> },
     ];
 
     return (

@@ -8,6 +8,7 @@
     "portfolio": "Portfólio",
     "experience": "experiência",
     "nome": "Ana Luiza de Freitas.",
+    "name": "Nome",
     "profissao": "ENGENHEIRA DE SOFTWARE",
     "veja-projetos": "Veja meus projetos >",
     "ver-todos": "Ver todos >",
@@ -23,8 +24,8 @@
     "resume-english": "Inglês",
     "resume-portuguese": "Português",
     "about-subtitle": "Quem sou eu?",
-    "about-paragraph-1": "Sou desenvolvedor front-end focado em criar interfaces modernas, acessíveis e responsivas.",
-    "about-paragraph-2": "Transformo ideias em experiências digitais claras e funcionais, sempre buscando evolução técnica e qualidade no código.",
+    "about-paragraph-1": "Sou Ana Luiza, estudante de Engenharia de Software na PUC Minas com grande paixão por tecnologia e inovação. Concluí o ensino médio no CEFET-MG em 2023, onde também obtive o técnico em Equipamentos Biomédicos. Foi lá que tive meu primeiro contato com programação — e imediatamente soube que era o caminho que queria seguir. Desde então, venho aprofundando meu conhecimento em desenvolvimento de sistemas por meio de projetos acadêmicos, trabalhando com diversas linguagens como C, C++, JavaScript e Java. Também aplico metodologias ágeis como Scrum e Kanban, que me ajudam a entregar resultados com impacto em ambientes de trabalho em equipe.",
+    "about-paragraph-2": "Estou sempre em busca de oportunidades onde eu possa aplicar o que aprendi, ganhar experiência prática e continuar crescendo como desenvolvedora. Aprendo rápido, sou naturalmente curiosa e estou sempre pronta para novos desafios.",
     "projects": {
         "title": "projetos",
         "subtitle": "Meus trabalhos",

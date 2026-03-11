@@ -40,7 +40,7 @@ const EmailForm = () => {
       <h2 style={{ textTransform: 'capitalize' }}>{t('entre-em-contato') }</h2>
       <p>{t('contato-descricao')}</p>
 
-      <label htmlFor="nome">{t('nome')}</label>
+      <label htmlFor="nome">{t('name')}</label>
       <input type="text" id="nome" name="name" required />
 
       <label htmlFor="email">{t('email')}</label>

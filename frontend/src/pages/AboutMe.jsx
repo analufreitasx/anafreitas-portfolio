@@ -4,7 +4,7 @@ import '../styles/about.css'
 import amazonLogo from "../assets/amazon.png";
 import googleLogo from "../assets/google.png"
 import ifoodLogo from "../assets/IfoodIcon.png"
-import profilePhoto from "../assets/foto.png"
+import profilePhoto from "../assets/PicturePerfil.jpg"
 
 const AboutMe = () => {
     const { t } = useLanguage()

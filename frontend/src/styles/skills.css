@@ -15,6 +15,23 @@
     letter-spacing: 0.1em;
 }
 
+.skill-header {
+    padding:10px 14px;
+    border-bottom:1px solid rgba(192,132,252,0.2);;
+    background:rgba(192,132,252,.05);
+    display:flex; 
+    align-items:center; 
+    gap:10px;
+}
+
+.skill-header h3{
+    font-family:'DM Mono',monospace; 
+    font-size:.72rem;
+    color:#c084fc;
+    letter-spacing:.15em; 
+    text-transform:uppercase;
+}
+
 .skills-tag {
     color: #870EBF;
     margin-right: 0.35rem;
@@ -43,17 +60,22 @@
 }
 
 .skill-card {
-    border-style: solid;
-    border-color: #ABB2BF;
-    border-width: 1px;
     max-width: 350px;
     display: flex;
     flex-direction: column;
     max-height: 500px;
     position: relative;
     overflow: hidden;
-    border: 1px solid #ABB2BF;
+    border:1px solid rgba(192,132,252,0.2);
+    background:rgba(255,255,255,.025);
+    transition:border-color .3s, box-shadow .3s, transform .3s;
 
+}
+
+.skill-card:hover{
+    border-color:rgba(240,171,252,.4);
+    box-shadow:0 8px 32px rgba(192,132,252,.1);
+    transform:translateY(-3px);
 }
 
 .skills-description {
@@ -69,4 +91,30 @@
     margin: 0;
     color: #ABB2BF;
     line-height: 1.6;
+}
+.skill-text{
+    display:flex; align-items:center; gap:6px;
+    padding:8px 10px;
+    border:1px solid transparent;
+    transition:border-color .25s, background .25s;
+    cursor:default;
+}
+
+.skill-text:hover{
+    border-color:rgba(192,132,252,0.2);
+    background:rgba(192,132,252,0.12);
+}
+
+.skill-name{
+    font-family:'DM Mono',monospace; 
+    font-size:.72rem;
+    color:#9d8ec0;
+}
+
+
+.skill-body{
+    padding:18px;
+  display:grid; 
+  grid-template-columns:1fr 1fr; 
+  gap:10px;
 }
