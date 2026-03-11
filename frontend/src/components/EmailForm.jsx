@@ -37,8 +37,10 @@ const EmailForm = () => {
 
   return (
     <form ref={formRef} className="envio-email" onSubmit={handleSubmit}>
-      <h2 style={{ textTransform: 'capitalize' }}>{t('entre-em-contato') }</h2>
-      <p>{t('contato-descricao')}</p>
+      <div className="form-head">
+          <h2 style={{ textTransform: 'capitalize' }}>{t('entre-em-contato') }</h2>
+          <p>{t('contato-descricao')}</p>
+      </div>
 
       <label htmlFor="nome">{t('name')}</label>
       <input type="text" id="nome" name="name" required />

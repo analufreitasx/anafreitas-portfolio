@@ -13,12 +13,22 @@
   margin-top: 1.2rem; /* reduz espaço acima */
   display: flex;
   flex-direction: column;
-  gap: 0.6rem; /* menos espaço entre elementos */
+  gap: 0.6rem; 
+  border:1px solid rgba(192,132,252,0.22);
+  padding:32px;
+  background:rgba(26,24,48,.6);
+  backdrop-filter:blur(8px);
+}
+
+.form-head{
+  margin-bottom:28px;
+  padding-bottom:20px;
+  border-bottom:1px solid rgba(192,132,252,0.22);
 }
 
 .envio-email h2 {
   margin: 0;
-  font-size: 1.2rem; /* ligeiramente menor */
+  font-size: 1.2rem; 
   color: #870ebf;
   text-align: center;
 }

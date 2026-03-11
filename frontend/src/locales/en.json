@@ -1,5 +1,5 @@
 {
-    "meu-portfolio": "MY PORTFOLIO",
+    "meu-portfolio": "ANA LUIZA DE FREITAS",
     "home": "home",
     "about": "about-me",
     "skills": "skills",
@@ -52,14 +52,12 @@
         "project-4-description": "Application to manage daily tasks with features to add, edit and delete."
     },
 
-    "enterprise-name-1": "Konica Minolta",
-    "enterprise-name-2": "Stellantis",
-    "enterprise-name-3": "",
+    "enterprise-name-1": "Stellantis",
+    "enterprise-name-2": "Konica Minolta",
     "position-name-1": "Biomedical Equipment Technical",
     "position-name-2": " Data Analytics Intern",
-    "job-description-1": "I worked on the development and maintenance of back-end applications, implementing APIs, business logic, and database integrations. I also handled version control with Git, bug fixes, and performance optimization, collaborating within an agile team and following software development best practices.",
-    "job-description-2":"I worked as a Mid-Level Software Developer, designing and evolving scalable solutions, defining architectures, and conducting code reviews to ensure quality and best practices. I collaborated with cross-functional teams on delivery planning and contributed to CI/CD implementation, production monitoring, and continuous application optimization.",
-    "job-description-3": "I worked as a Senior Software Developer, leading architectural decisions and driving the evolution of high-scale, mission-critical systems. I was responsible for defining technical standards, mentoring team members, conducting strategic code reviews, and ensuring long-term code quality and sustainability.\n\nI also contributed to service decomposition, performance and reliability optimization, and actively participated in technical planning, technical debt prioritization, and roadmap definition alongside product and business teams.",
+    "job-description-1": "Creates and maintains dashboards and intelligence reports for business insights and operational tracking. Monitors TechOps actions, backlog, and sprints, updates post-go-live projects daily, and tracks pre-go-live initiatives on a weekly basis.",
+    "job-description-2":"- Responsible for managing and maintaining data within the CRM (Customer Relationship Management) platform, ensuring accurate and organized customer and support records. \nHandle the registration, routing, and follow-up of technical support tickets for remote assistance, helping to ensure timely and effective issue resolution.\nAct as a liaison between clients and the technical team, streamlining communication and contributing to continuous improvement in customer support.",
     "skills.skill-1-title": "Languages",
     "skills.skill-2-title": "Tools",
     "skills.skill-3-title": "Frameworks",

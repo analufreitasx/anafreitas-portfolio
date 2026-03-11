@@ -1,10 +1,9 @@
 import { useLanguage } from '../services/translation'
 import Skills from '../components/Skills.jsx'
 import '../styles/about.css'
-import amazonLogo from "../assets/amazon.png";
-import googleLogo from "../assets/google.png"
-import ifoodLogo from "../assets/IfoodIcon.png"
-import profilePhoto from "../assets/PicturePerfil.jpg"
+import stellantisLogo from "../assets/stellantis.png";
+import konicaLogo from "../assets/KonicaMinolta.png"
+import ImagePerfil from '../components/ImagePerfil.jsx'
 
 const AboutMe = () => {
     const { t } = useLanguage()
@@ -26,7 +25,7 @@ const AboutMe = () => {
                     </div>
 
                     <div className="about-photo-wrapper">
-                        <img className="about-photo" src={profilePhoto} alt="Profile" />
+                        <ImagePerfil/>
                     </div>
                 </div>
             </section>
@@ -41,39 +40,29 @@ const AboutMe = () => {
                 </h1>
                 <div className="timeline">
                     <div className="container">
-                        <img src={amazonLogo} alt="AmazonLogo"/>
+                        <div class="tl-dot">
+                            <img src={stellantisLogo} alt="StellantisLogo"/>
+                        </div>
+                        
                         <h2 className="enterpriseTitle text-gradient"> {t('enterprise-name-1')}</h2>
                         <div className="text-box">
                             <h2> {t('position-name-1')}</h2>
-                            <small> 2024-2026</small>
+                            <div className="Data">
+                                <small> 2025 - Presente</small>
+                                <span className="badge-atual">ATUAL</span>
+                            </div>
                             <p>{t('job-description-1')}</p>
                         </div>
                     </div>
                     <div className="container">
-                        <img src={googleLogo} alt="GoogleLogo"/>
+                        <div className="tl-dot">
+                            <img src={konicaLogo} alt="GoogleLogo"/>
+                        </div>
                         <h2 className="enterpriseTitle text-gradient"> {t('enterprise-name-2')}</h2>
                         <div className="text-box">
-                            <h2> {t('position-name-1')}</h2>
+                            <h2> {t('position-name-2')}</h2>
                             <small> 2024-2026</small>
                             <p>{t('job-description-2')}</p>
-                        </div>
-                    </div>
-                    <div className="container">
-                        <img src={ifoodLogo} alt="IfoodLogo"/>
-                        <h2 className="enterpriseTitle text-gradient"> {t('enterprise-name-3')}</h2>
-                        <div className="text-box">
-                            <h2> {t('position-name-2')}</h2>
-                            <small> 2024-2026</small>
-                            <p>{t('job-description-3')}</p>
-                        </div>
-                    </div>
-                    <div className="container">
-                        <img src={amazonLogo} alt="AmazonLogo"/>
-                        <h2 className="enterpriseTitle text-gradient"> {t('enterprise-name-1')}</h2>
-                        <div className="text-box">
-                            <h2> {t('position-name-2')}</h2>
-                            <small> 2024-2026</small>
-                            <p>{t('job-description-3')}</p>
                         </div>
                     </div>
                 </div>
