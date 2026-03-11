@@ -9,7 +9,8 @@
     z-index: 100;
     margin: 0;
     padding: 1rem;
-    opacity: 0.9;
+    opacity: 0.8;
+    background-color: #12102a;
 }
 
 .titulo {
