@@ -40,7 +40,7 @@ const AboutMe = () => {
                 </h1>
                 <div className="timeline">
                     <div className="container">
-                        <div class="tl-dot">
+                        <div className="tl-dot">
                             <img src={stellantisLogo} alt="StellantisLogo"/>
                         </div>
                         
