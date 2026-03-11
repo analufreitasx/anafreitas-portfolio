@@ -3,7 +3,8 @@ import '../styles/projects.css'
 import project1Image from '../assets/PsiPlus.png';
 import project2Image from '../assets/RealConsult.png';
 import project3Image from '../assets/PotentialSenior.jpg';
-import project4Image from '../assets/project4.jpg';
+import project4Image from '../assets/portfolio.png';
+
 
 const Projects = () => {
     const { t } = useLanguage()
@@ -32,6 +33,15 @@ const Projects = () => {
             descKey: 'projects.project-3-description',
             github: 'https://github.com',
             demo: 'https://github.com'
+        },
+
+        {
+            image:project4Image,
+            techs: ['React', 'CSS'],
+            titleKey: 'smallprojects.project-3-title',
+            descKey: 'smallprojects.project-3-description',
+            github: 'https://github.com/analufreitasx/anafreitas-portfolio',
+            demo: 'https://github.com'
         }
     ];
 
@@ -48,13 +58,6 @@ const Projects = () => {
             titleKey: 'smallprojects.project-2-title',
             descKey: 'smallprojects.project-2-description',
             github: 'https://github.com/pucmg-aulas/roombookings-g1-noite-roombookingsg4',
-            demo: 'https://github.com'
-        },
-        {
-            techs: ['React', 'CSS'],
-            titleKey: 'smallprojects.project-3-title',
-            descKey: 'smallprojects.project-3-description',
-            github: 'https://github.com/analufreitasx/anafreitas-portfolio',
             demo: 'https://github.com'
         }
     ];
