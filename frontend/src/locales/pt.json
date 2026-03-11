@@ -42,7 +42,7 @@
         "best-projects": "Melhores Projetos"
     },
     "smallprojects": {
-        "project-1-title": "Bot whatsapp",
+        "project-1-title": "Gerenciamento de Hackathons Universitários",
         "project-1-description": "Bot para automatizar mensagens no whatsapp usando a biblioteca Baileys.",
         "project-2-title": "Gerador de senhas",
         "project-2-description": "Gerador de senhas aleatórias com opções de personalização.",
