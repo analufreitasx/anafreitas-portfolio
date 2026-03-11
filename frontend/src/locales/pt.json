@@ -43,11 +43,11 @@
     },
     "smallprojects": {
         "project-1-title": "Gerenciamento de Hackathons Universitários",
-        "project-1-description": "Bot para automatizar mensagens no whatsapp usando a biblioteca Baileys.",
-        "project-2-title": "Gerador de senhas",
-        "project-2-description": "Gerador de senhas aleatórias com opções de personalização.",
-        "project-3-title": "Conversor de moedas",
-        "project-3-description": "Aplicação para converter valores entre diferentes moedas usando uma API de câmbio.",
+        "project-1-description": "Sistema de gerenciamento de hackathons universitários desenvolvido em Java com POO, Singleton e Streams API para gestão de equipes, projetos, jurados e apresentações.",
+        "project-2-title": "Roombokings",
+        "project-2-description": "Sistema de gerenciamento de reservas de salas de reunião da Xulambs Inc., desenvolvido em Java para cadastro de clientes, salas, reservas, cancelamentos e relatórios gerenciais.",
+        "project-3-title": "Portfolio",
+        "project-3-description": "Portfólio profissional bilíngue desenvolvido em React, com seções de projetos, experiências, currículo exportável e formulário de contato integrado.",
         "project-4-title": "Lista de tarefas",
         "project-4-description": "Aplicação para gerenciar tarefas diárias com funcionalidades de adicionar, editar e excluir."
     },

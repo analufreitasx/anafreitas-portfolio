@@ -37,31 +37,24 @@ const Projects = () => {
 
     const smallProjectsData = [
         {
-            techs: ['Java', 'Springboot'],
+            techs: ['Java'],
             titleKey: 'smallprojects.project-1-title',
             descKey: 'smallprojects.project-1-description',
-            github: 'https://github.com',
+            github: 'https://github.com/analufreitasx/HackatonUniversit-rio.git',
             demo: 'https://github.com'
         },
         {
-            techs: ['Python', 'Django'],
+            techs: ['Java', 'JavaSwing'],
             titleKey: 'smallprojects.project-2-title',
             descKey: 'smallprojects.project-2-description',
-            github: 'https://github.com',
+            github: 'https://github.com/pucmg-aulas/roombookings-g1-noite-roombookingsg4',
             demo: 'https://github.com'
         },
         {
-            techs: ['JavaScript', 'Node.js'],
+            techs: ['React', 'CSS'],
             titleKey: 'smallprojects.project-3-title',
             descKey: 'smallprojects.project-3-description',
-            github: 'https://github.com',
-            demo: 'https://github.com'
-        },
-        {
-            techs: ['C#', '.NET'],
-            titleKey: 'smallprojects.project-4-title',
-            descKey: 'smallprojects.project-4-description',
-            github: 'https://github.com',
+            github: 'https://github.com/analufreitasx/anafreitas-portfolio',
             demo: 'https://github.com'
         }
     ];
@@ -116,7 +109,6 @@ const Projects = () => {
                         <p className="project-description">{t(project.descKey)}</p>
                         <div className="project-links">
                             <a href={project.github} target="_blank" rel="noopener noreferrer" className="project-link">&gt; GitHub</a>
-                            <a href={project.demo} target="_blank" rel="noopener noreferrer" className="project-link">&gt; Demo</a>
                         </div>
                     </div>
                 ))}

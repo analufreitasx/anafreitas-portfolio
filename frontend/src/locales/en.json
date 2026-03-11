@@ -42,12 +42,12 @@
         "best-projects": "best-projects"
     },
     "smallprojects": {
-        "project-1-title": "Whatsapp bot",
-        "project-1-description": "Bot to automate messages on Whatsapp using the Baileys library.",
-        "project-2-title": "Password generator",
-        "project-2-description": "Random password generator with customization options.",
-        "project-3-title": "Currency converter",
-        "project-3-description": "Application to convert values between different currencies using an exchange API.",
+        "project-1-title": "University Hackathon Management",
+        "project-1-description": "University hackathon management system built in Java using OOP, Singleton pattern and Streams API to manage teams, projects, judges and presentations.",
+        "project-2-title": "RoomBookings",
+        "project-2-description": "Meeting room reservation management system for Xulambs Inc., built in Java to handle client registration, room booking, cancellations and management reports.",
+        "project-3-title": "Portfólio",
+        "project-3-description": "Bilingual professional portfolio built with React, featuring projects, experience timeline, exportable resume and integrated contact form.",
         "project-4-title": "Todo list",
         "project-4-description": "Application to manage daily tasks with features to add, edit and delete."
     },

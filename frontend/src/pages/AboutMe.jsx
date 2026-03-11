@@ -55,7 +55,7 @@ const AboutMe = () => {
                     </div>
                     <div className="container">
                         <div className="tl-dot">
-                            <img src={konicaLogo} alt="GoogleLogo"/>
+                            <img src={konicaLogo} alt="KonicaLogo"/>
                         </div>
                         <h2 className="enterpriseTitle text-gradient"> {t('enterprise-name-2')}</h2>
                         <div className="text-box">
