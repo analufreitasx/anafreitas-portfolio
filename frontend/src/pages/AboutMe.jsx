@@ -43,7 +43,6 @@ const AboutMe = () => {
                         <div className="tl-dot">
                             <img src={stellantisLogo} alt="StellantisLogo"/>
                         </div>
-                        
                         <h2 className="enterpriseTitle text-gradient"> {t('enterprise-name-1')}</h2>
                         <div className="text-box">
                             <h2> {t('position-name-1')}</h2>
