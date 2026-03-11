@@ -173,15 +173,6 @@ color:#9d8ec0;
   background:rgba(192,132,252,.07);
 }
 
-.container img{
-    position:absolute;
-    width: 70px;
-    border-radius: 50%;
-    top: 32px;
-    z-index: 100;
-    left:-22px;
-}
-
 
 .timeline::before {
   content:'';
