@@ -14,7 +14,6 @@ const Contacts = () => {
         { href: 'https://linkedin.com/in/ana-luizadefreitas', label: 'Linkedin', icon: <FaLinkedin /> },
         { href: 'https://github.com/analufreitasx', label: 'Github', icon: <FaGithub /> },
         { href: 'mailto:analuizafreitas12@yahoo.com.br', label: 'Email', icon: <FaEnvelope /> },
-        { href: 'https://wa.me/5531992688681', label: 'Whatsapp', icon: <FaWhatsapp /> },
     ];
 
     return (
